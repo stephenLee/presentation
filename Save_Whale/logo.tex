@@ -1,0 +1,26 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usecolortheme{beaver}
+\usepackage{textpos}
+
+\title{The title}
+\author[李晓东]{\includegraphics[height=1cm,width=2cm]{logo}\\李晓东}
+\institute[Inst.]{The Institute}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\addtobeamertemplate{frametitle}{}{%
+\begin{textblock*}{100mm}(.85\textwidth,-1cm)
+\includegraphics[height=1cm,width=2cm]{logo}
+\end{textblock*}}
+
+\begin{frame}{Motivation}
+Now the logo is visible
+\end{frame}
+
+\end{document}

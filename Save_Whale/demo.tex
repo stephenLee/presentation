@@ -1,0 +1,38 @@
+\documentclass{beamer}
+\usepackage{CJKutf8}
+\usetheme{Madrid}
+\usecolortheme{beaver}
+\usepackage{textpos}
+
+\setbeamertemplate{items}[ball]
+
+% Rounder boxes and shadows
+\setbeamertemplate{blocks}[rounded][shadow=true]
+% Getting rid of the nabigation icons
+\setbeamertemplate{navigation symbols}{}
+
+
+\begin{document}
+\begin{CJK}{UTF8}{gkai}
+\title{Save the Whale}
+\author[XiaodongLi]{\includegraphics[height=1cm,width=2cm]{logo}\\StephenLee\\(李晓东)}
+\institute[SAVE WHALES AGAIN]{A WHALEMAN FOUNDATION INTERNATIONAL CAMPAIGN}
+\renewcommand{\today}{ April 24, 2012}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\addtobeamertemplate{frametitle}{}{%
+\begin{textblock*}{100mm}(.85\textwidth,-1cm)
+\includegraphics[height=1cm,width=2cm]{logo}
+\end{textblock*}}
+
+\begin{frame}{Whale hunting}
+\begin{block}{ad}
+  \includegraphics{endange}
+\end{block}
+\end{frame}
+
+\end{CJK}
+\end{document}
