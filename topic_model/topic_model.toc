@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.07pt}
+\beamer@sectionintoc {1}{Introduction to topic model}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{What are topic model?}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{LDA}{6}{0}{1}
+\beamer@sectionintoc {2}{Applications}{11}{0}{2}
+\beamer@subsectionintoc {2}{1}{Topic model in text mining}{12}{0}{2}
+\beamer@subsectionintoc {2}{2}{Topic model in image processing}{16}{0}{2}
+\beamer@sectionintoc {3}{Model extensions}{19}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{21}{0}{4}
+\beamer@sectionintoc {5}{Reference}{23}{0}{5}
+\beamer@sectionintoc {6}{The end}{25}{0}{6}
